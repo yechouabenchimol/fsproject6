@@ -1,0 +1,38 @@
+ 
+  .posts-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .posts-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .PostList {
+    background-color: #ffffff9c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin-top: 100px;
+  }
+  
+  .post-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .post-content.active {
+    max-height: 1000px;
+    transition: max-height 0.3s ease;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,97 @@
+.checklist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    width: 400px;
+  }
+  
+  .checklist h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .sorting-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .checklist ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .checklist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .checklist li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .checklist li p {
+    margin: 0;
+  }
+  
+  .checklist li button {
+    margin-left: 1rem;
+  }
+  
+  .add-task-button {
+    margin-top: 1rem;
+  }
+  
+
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+  .task {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.619); /* Carré blanc transparent */
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    width: 700px;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task p {
+    margin: 0;
+    flex-grow: 1;
+  }
+  
+  #dv {
+    width: 80px;
+    height: 40px;
+    background:  #977108c2;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+  }
+  
+  #dv:first-child {
+    margin-right: 17px;
+  }
+  
+
+
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 70vh; /* Limite la hauteur de la liste des tâches */
+    overflow-y: auto; /* Ajoute une barre de défilement en cas de dépassement de la hauteur */
+  }
+

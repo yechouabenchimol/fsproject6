@@ -1,0 +1,15 @@
+/* מתי שאנחנו נלחץ על הלינק זה ישנה לנו צבע */
+.active{
+    color:rgb(173, 166, 166)
+  }
+  .post-content {
+    display: none;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.3s ease;
+  }
+  
+  .post-content.active {
+    display: block;
+    height: auto;
+  }

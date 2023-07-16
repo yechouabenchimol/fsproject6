@@ -1,0 +1,38 @@
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-top: 5vh;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heading {
+  font-size: 36px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.info-card {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.label-value {
+  text-align: left;
+}
+
+.label {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.value {
+  text-decoration: underline;
+}
